@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>BTM BAKER'S</title>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fix">
+          <a class="navbar-brand text-white brand" href="#">BtmBakers</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse w-50 order-3"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active contact"
+                  aria-current="page"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white pricing" href="#">Pricing</a>
+              </li>
+              <li class="nav-item download">
+                <a class="nav-link text-white download" href="#">Download</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2 search__input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-danger search" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col">
+            <h1 class="slogan">The taste of KERALA🌴🌴</h1>
+            <button class="btn btn-dark btn-lg play" type="submit">
+              <i class="fab fa-google-play"></i>Download
+            </button>
+            <button class="btn btn-outline-light btn-lg appstore" type="submit">
+              <i class="fab fa-apple"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-4">
+            <img
+              class="iphone"
+              src="data:image/jpeg;base64,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"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features" class="feature transition wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <i class="fas fa-hamburger burger"></i>
+            <h3>Eat as much you wan't.</h3>
+            <p>Free service on every friday.</p>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-truck deliver"></i>
+            <h3>Deliver the item you need.</h3>
+            <p>We provide an online delivery service.</p>
+          </div>
+          <div class="col-sm">
+            <i class="fab fa-amazon-pay upi"></i>
+            <h3>Online payment.</h3>
+            <p>Pay using your upi service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="testimonial">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+        data-bs-hover="hover"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              One of the tasty and expensive item we have. Feel and taste the
+              magic inside it.
+            </h2>
+            <img
+              class="food1"
+              src="https://wallpapercave.com/wp/wp3053378.jpg"
+              alt="biriyani-profile"
+              width="300"
+            />
+          </div>
+          <div class="carousel-item">
+            <h2>
+              One of the tasty and expensive item we have. Feel and taste the
+              magic inside it.
+            </h2>
+            <img
+              class="food2"
+              src="https://thumbs.dreamstime.com/b/kerala-porotta-beef-curry-layered-flatbread-kerala-porotta-beef-curry-meat-curry-paratha-roti-naan-layered-flatbread-189754304.jpg"
+              alt="porotta-profile"
+              width="300"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <div class="container price">
+        <div class="row">
+          <div class="col-sm-4 mt-2">
+            <div class="card text-center">
+              <div class="card-header">
+                <h2>Friday Carnival</h2>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Free food for 1pm to 3pm in all friday's.
+                </h5>
+                <p class="card-text">
+                  <h3>Any Food Item's</h3>
+                 <h2>Free</h2>
+                 <p>Same expense items in no cost</p>
+                 <p>Unlimited food</p>
+                </p>
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-lg">Book Your Seat</a>
+              </div>
+              <div class="card-footer text-muted">All Friday</div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-2">
+            <div class="card text-center">
+              <div class="card-header"><h2>Sunday Party</h2></div>
+              <div class="card-body">
+                <h5 class="card-title">Every sunday night 7pm to 12am</h5>
+                <p class="card-text">
+                  <h3>Party With Alia Bhatt</h3>
+                 <h2>$250 / event</h2>
+                 <p>Unlimited Food</p>
+                <p>Adults session</p>
+                <a href="#" class="btn btn-primary btn-lg">Grab your seats</a>
+              </div>
+              <div class="card-footer text-muted">All Sunday</div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-2">
+            <div class="card text-center">
+              <div class="card-header"><h2>Entertainment dhamaka</h2></div>
+              <div class="card-body">
+                <h5 class="card-title">Treat With Amazon Prime</h5>
+                <p class="card-text">
+                 <h3>Prime Celebration</h3>
+                 <h2>$99 / event</h2>
+                 <p>Priority Movies</p>
+                 <p>Unlimited Internet</p>
+                </p>
+                <a href="#" class="btn btn-primary btn-lg">Book your subscription</a>
+              </div>
+              <div class="card-footer text-muted">Month end 7am to 12pm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta" class="final__task">
+      <h3>Now the favorite dish for your dog's availible.</h3>
+      <button class="btn btn-dark play" type="submit"> <i class="fab fa-google-play"></i>Download</button>
+      <button class="btn btn-dark appstore" type="submit"> <i class="fab fa-apple"></i>Download</button>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>© Copyright 2021 btmbakers</p>
+    </footer>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

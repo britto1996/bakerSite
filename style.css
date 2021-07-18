@@ -1,0 +1,194 @@
+
+
+
+#title {
+    background: url("https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFrZXJ5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+#features,
+#testimonials,
+#pricing {
+    margin-top: 350px;
+}
+
+#cta {
+    margin-top: 500px;
+}
+
+
+#footer {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color:#444444;
+}
+
+
+
+
+
+
+
+.feature {
+    background-color: #FFE194;
+    text-align: center;
+    padding: 100px;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+} 
+
+.final__task {
+    background-color: #444444;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+.iphone {
+    margin-top: 25px;
+    transform: rotate(25deg);
+}
+
+.testimonial {
+    background-color: #FF3D68;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    opacity: 1;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+@media(max-width:900px) {
+    .slogan {
+        font-size: 3rem;
+    }
+
+    .iphone {
+        transform: rotate(0deg);
+        text-align: center;
+    }
+
+}
+
+
+.price {
+    opacity: 1;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+.food1,
+.food2 {
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+
+.food1:hover{
+    opacity: 0.5;
+}
+
+.food2:hover {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.food__title {
+    text-align: center;
+    font-family: 'Cookie',
+    cursive;
+    color:white;
+}
+
+
+  
+
+
+
+
+.contact,
+.pricing,
+.download {
+    color:white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.search__input {
+    margin-left: 5px;
+}
+
+
+.contact:hover {
+    background-color: aqua;
+}
+
+.pricing:hover {
+    background-color: aqua;
+}
+
+.download:hover {
+    background-color: aqua;
+}
+
+.download1,
+.downoad2 {
+    margin: 10px;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.brand {
+   font-family: 'Grand Hotel',
+   cursive;
+   font-size: 45px;
+}
+
+.slogan {
+    font-family: 'Merienda',
+    cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+   
+}
+
+
+.play,
+.appstore {
+    color: white;
+    margin: 5px;
+}
+
+.play:hover {
+    background-color: aqua;
+}
+
+.appstore:hover {
+    background-color: aqua;
+}
+
+
+
+.burger,
+.deliver,
+.upi {
+    font-size: 40px;
+    color: red;
+}
+
